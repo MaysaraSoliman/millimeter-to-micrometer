@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;700 rel="stylesheet">');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: 'Glory', sans-serif;
+}
+
+.converter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.converterWrapper {
+    background-color: #323232;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input {
+    padding: 15px;
+
+}
+
+.button {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.result {
+    background-color: #28A745;
+    padding: 15px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0;
+}
