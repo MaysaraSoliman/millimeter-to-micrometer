@@ -33,43 +33,43 @@ function App() {
           <div className={styles.inputsContainer}>
             <div className={styles.inputWrapper}>
               <label
-                htmlFor="inchesInput"
+                htmlFor="millimeterInput"
                 className={styles.label}>
                 Millimeter:
               </label>
               <input
                 className={styles.input}
-                id="inchesInput"
+                id="millimeterInput"
                 type='text'
-                placeholder='Enter number of inches here..'
+                placeholder='Enter number of millimeter here..'
                 ref={millimeterInputRef}
               />
             </div>
             <div className={styles.inputWrapper}>
               <label
-                htmlFor="inchesInput"
+                htmlFor="priceInput"
                 className={styles.label}>
                 Price:
               </label>
               <input
                 className={styles.input}
-                id="inchesInput"
+                id="priceInput"
                 type='text'
-                placeholder='Enter number of inches here..'
+                placeholder='Enter millimeter price here..'
                 ref={priceInputRef}
               />
             </div>
             <div className={styles.inputWrapper}>
               <label
-                htmlFor="inchesInput"
+                htmlFor="procedureInput"
                 className={styles.label}>
                 Procedure Amount:
               </label>
               <input
                 className={styles.input}
-                id="inchesInput"
+                id="procedureInput"
                 type='text'
-                placeholder='Enter number of inches here..'
+                placeholder='Enter your millimeter used..'
                 ref={ProcedureAmountInputRef}
               />
             </div>
